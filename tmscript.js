@@ -1,13 +1,13 @@
-
 // ==UserScript==
 // @name          QuickYouTubeDownload
 // @namespace     https://github.com/Sv443/QuickYouTubeDownload
-// @version       1.0
+// @version       1.0.1
 // @description   YouTube video download via hotkey
 // @author        Sv443
 // @match         *://www.youtube.com*
 // @grant         GM_addStyle
 // @grant         unsafeWindow
+// @icon          http://sv443.net/favicons/quickyoutubedownload.ico
 // @run-at        document-start
 // @require       https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @connect       self
@@ -28,7 +28,7 @@
 
 /*Init                                                                Init                                                                Init*/
 
-var qydl_version = "1.0";
+var qydl_version = "1.0.1";
 var URLhost = window.location.host;
 var URLpath = window.location.pathname;
 var curURL = URLhost + "" + URLpath;
