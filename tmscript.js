@@ -1,20 +1,20 @@
 // ==UserScript==
-// @name          QuickYouTubeDownload
-// @namespace     https://github.com/Sv443/QuickYouTubeDownload
-// @version       1.0.1
-// @description   YouTube video download via hotkey
-// @author        Sv443
-// @match         *://www.youtube.com*
-// @grant         GM_addStyle
-// @grant         unsafeWindow
-// @icon          http://sv443.net/favicons/quickyoutubedownload.ico
-// @run-at        document-start
-// @require       https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
-// @connect       self
-// @connect       *
-// @connect       sv443.net
-// @downloadURL   https://raw.githubusercontent.com/Sv443/QuickYouTubeDownload/master/tmscript.js
-// @updateURL     https://raw.githubusercontent.com/Sv443/QuickYouTubeDownload/master/tmscript.js
+// @name            QuickYouTubeDownload
+// @description     Quick YouTube video download via hotkey
+// @name:de         QuickYouTubeDownload
+// @description:de  Schneller YouTube Download per Hotkey
+// @version         1.0.2
+// @author          Sv443
+// @namespace       https://github.com/Sv443/QuickYouTubeDownload
+// @match           *://www.youtube.com*
+// @icon            http://sv443.net/favicons/quickyoutubedownload.ico
+// @run-at          document-start
+// @require         https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @connect         self
+// @connect         *
+// @connect         sv443.net
+// @downloadURL     https://raw.githubusercontent.com/Sv443/QuickYouTubeDownload/master/tmscript.js
+// @updateURL       https://raw.githubusercontent.com/Sv443/QuickYouTubeDownload/master/tmscript.js
 // ==/UserScript==
 
 (function() {
@@ -28,7 +28,7 @@
 
 /*Init                                                                Init                                                                Init*/
 
-var qydl_version = "1.0.1";
+var qydl_version = "1.0.2";
 var URLhost = window.location.host;
 var URLpath = window.location.pathname;
 var curURL = URLhost + "" + URLpath;
